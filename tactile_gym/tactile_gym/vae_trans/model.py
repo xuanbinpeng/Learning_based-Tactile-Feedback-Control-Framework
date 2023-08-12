@@ -92,7 +92,7 @@ class FeatureMapping(nn.Module):
 
             nn.Linear(512, 512),
             nn.LeakyReLU(),     
-            nn.Dropout(0.3),
+            nn.Dropout(0.2),
 
             nn.Linear(512, 512),
             nn.LeakyReLU(),   
